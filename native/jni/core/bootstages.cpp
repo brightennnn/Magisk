@@ -373,6 +373,7 @@ void boot_complete(int client) {
 
     rm_rf("/data/system/ifw");
     
+    
     if (safe_mode)
         return;
 
